@@ -1,10 +1,35 @@
-<mvc:View controllerName="com.perceptio.training.sales_orders_info.controller.App" xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
-	xmlns="sap.m">
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="com.perceptio.training.sales_orders_info.controller.App" displayBlock="true">
 	<Shell id="shell">
 		<App id="app">
 			<pages>
 				<Page id="page" title="{i18n>title}">
-					<content></content>
+					<content>
+					    <Table noDataText="Drop column list items here and columns in the area above" id="table2">
+					        <items>
+					            <ColumnListItem type="Active" id="item2">
+					                <cells>
+					                    <Text text="Row 1 Cell 1" id="text6"/>
+					                    <Text text="Row 1 Cell 2" id="text7"/>
+					                    <Text text="Row 1 Cell 3" id="text8"/></cells>
+					            </ColumnListItem>
+					        </items>
+					        <columns>
+					            <Column id="column6">
+					                <header>
+					                    <Label text="Header 1" id="label6"/>
+					                </header>
+					            </Column>
+					            <Column id="column7">
+					                <header>
+					                    <Label text="Header 2" id="label7"/>
+					                </header>
+					            </Column>
+					            <Column id="column8">
+					                <header>
+					                    <Label text="Header 3" id="label8"/>
+					                </header>
+					            </Column></columns></Table>
+					</content>
 				</Page>
 			</pages>
 		</App>
