@@ -6,7 +6,7 @@
 			<EntityType sap:content-version="1" Name="Ped_Header">
 				<Key>
 					<PropertyRef Name="Vbeln"/>
-				</Key>
+				</Key> 
 				<Property sap:updatable="false" sap:creatable="false" Name="IErdat" sap:sortable="false" sap:label="Date" sap:unicode="false" Precision="7"
 					Type="Edm.DateTime"/>
 				<Property sap:updatable="false" sap:creatable="false" Name="Vbeln" sap:sortable="false" sap:label="Sales Document" sap:unicode="false"
